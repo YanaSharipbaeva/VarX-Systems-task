@@ -1,0 +1,112 @@
+.blog-image,  .blog-info {
+    display: inline-block;
+}
+
+.blog-image{
+    background: url(../images/blog.jpg)no-repeat center;
+    width: 310px;
+    height: 310px;
+    background-size: contain;
+}
+
+.blog-info {
+    display: inline-block;
+    width: calc(100% - 310px);
+    vertical-align: top;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.blog-info-header {
+    display: flex;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    color: $darken;
+    line-height: 1.2;
+}
+
+.blog-info-header__author:before {
+    background: url(../images/small_blog_pic1.png)no-repeat center;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.blog-info-header__date:before {
+    background: url(../images/small_blog_pic2.png)no-repeat center;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.blog-info-header__comments:before {
+    background: url(../images/small_blog_pic3.png)no-repeat center;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.blog-info-header__author, .blog-info-header__date {
+    margin-right: 50px;
+}
+
+.blog-info-content__title {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: $darken;
+    line-height: 1.2;
+}
+
+.blog-info-content__text{
+    color: $darken;
+    line-height: 1.2;
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+
+.blog-info__know {
+    width: 150px;
+    float: left;
+}
+
+.blog-info__share {
+    width: 140px; 
+    float: right;
+}
+
+.blog-info__button {
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    border-radius: 18px;
+    border: 1px solid #000;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.blog-info__share:after {
+   background: url(../images/small_blog_pic4.png)no-repeat center;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+.blog-wrapper{
+    display: flex;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){function e(){event.preventDefault();var t=$(this).attr("href"),n=$(t).offset().top;$("body,html").animate({scrollTop:n},1e3),this.removeEventListener("click",e)}var t;t=document.getElementsByClassName("services-arrow"),t=[].slice.call(t),t.forEach(function(t){t.addEventListener("click",e)})});

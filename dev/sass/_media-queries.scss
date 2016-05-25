@@ -1,0 +1,134 @@
+@media (max-width: 1024px)  {
+    .price-image {
+        background-size: contain; 
+    }  
+
+    .price-info {
+        width: auto;
+    }
+
+    .gallery-wrapper, .article-wrapper {
+        width: calc(100% - 240px);
+    }
+
+    .blog-content-wrapper {
+        width: calc(100% - 240px);
+        display: inline-block;
+        float: right;
+    }
+
+    .blog-image {
+        width: 30%;
+        height: 310px;
+    }
+    .blog-info {
+        width: auto;
+    }
+
+    .service-title:before {
+        width: 10%;
+        background-size: contain;
+    }
+
+    .service-title:after {
+        width: 40%;
+        background-size: contain;
+    }
+
+    .feedback-popup__name, .feedback-popup__email {
+        width: 100%!important;
+    }
+    
+}
+
+@media (max-width: 900px)  {
+    .blog-image {
+        display: none;
+    }
+
+    .services-text {
+        width: auto;
+    }
+
+    .services-image1 , .services-image2{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px)  {
+    .sidebar-navigation:before, .sidebar-navigation:after {
+        display: none;
+    }
+
+    .contacts-wrapper, .content-wrapper, .content-background, .prices-wrapper {
+        width: 100%;
+    }
+
+    //sidebar mobile view
+
+    .sidebar-wrapper {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .navigation-list {
+        display: flex;
+    }
+
+    .content-wrapper,  {
+        width: 100%;   
+    }
+
+    .content-background, .sidebar-copyright{
+         display: none;
+     }
+    .sidebar-logo{
+         background-size: contain;
+    }
+
+    .sidebar-logo__title {
+        padding: 0px;
+        font-size: 12px;
+    }
+
+    .sidebar-navigation__link {
+        display: inline-block;
+        float: left;
+        margin: 0px 10px;
+    }
+
+    .social-links {
+        display: flex;
+    }
+
+    .sidebar-social-wrapper:first-child, .sidebar-social-wrapper:nth-child(2) {
+        margin-right: 5px;
+    }
+
+    .sidebar-logo{
+        margin:5px;
+    }
+
+    //sidebar mobile view-----
+
+    .sidebar-navigation__link a {
+        font-size: 12px;
+    }
+
+    .image-wrapper img{
+        width: 100%;
+    }
+
+    .gallery-wrapper {
+        width: 100%;
+    }
+
+    .services-image1, .services-image2 {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 25px;
+    } 
+}

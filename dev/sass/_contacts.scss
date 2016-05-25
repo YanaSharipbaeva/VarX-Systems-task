@@ -1,0 +1,199 @@
+.contacts-map {
+    background: url(../images/map.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-wrapper {
+    width: calc(100% - 240px);
+    display: inline-block;
+    float: right;
+    padding-top: 0px; 
+}
+
+.contacts {
+    color: #0d1312;
+    font-size: 20px;
+    width: 305px;
+    height: 308px;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+.contacts-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.contacts-info{
+    font-size: 14px;
+    display: flex;
+    content: "";
+    align-items: center;
+    margin-bottom: 30px;
+    line-height:1.2;
+}
+
+.contacts-info__street:before {
+    background: url(../images/contacts1.png) no-repeat center; 
+    display:block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    margin-right: 30px;
+}
+
+.contacts-info__mail:before {
+    background: url(../images/contacts2.png) no-repeat center;
+    display:block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    margin-right: 30px;
+}
+
+.contacts-info__phone:before {
+    background: url(../images/contacts3.png) no-repeat center;
+    display:block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    margin-right: 30px;
+}
+
+.feedback-popup-container {
+    width: 340px;
+    height: 535px;
+    background:#000;
+}
+
+.feedback-popup__title {
+    color: #fff;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
+
+.feedback-popup-container:before {
+    background: url(../images/contacts_divider_up.png) no-repeat center;
+    width: 259px;
+    height: 49px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+
+.feedback-popup-container:after {
+    background: url(../images/contacts_divider_down.png) no-repeat center;
+    width: 259px;
+    height: 49px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+
+.feedback-popup__field {
+    outline: none;
+    width: 200px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 1px solid #b2b2b2;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    color: #b6b6b6;
+    background: #f1f1f1;
+    font-size: 16px;
+    font-family: Century Gothic;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.feedback-popup__textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.feedbackMessage {
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 17px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 39px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.okBackToPage {
+    width:100px;
+    height: 100px;
+    background: url(../images/okBack.png)no-repeat center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.feedback-container {
+    background: #000!important;
+}
+
+.feedback-thanks-container .thanks-popup__title {
+    color: #fff;
+}
+
+.feedback-thanks-container {
+    background: #000;
+    width: 340px;
+    height: 405px;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.feedback-thanks-container:before {
+    background: url(../images/contacts_divider_up.png) no-repeat center;
+    width: 259px;
+    height: 49px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+
+.feedback-thanks-container:after {
+    background: url(../images/contacts_divider_down.png) no-repeat center;
+    width: 259px;
+    height: 49px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+.feedback-thanks-container .thanks-popup__text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}

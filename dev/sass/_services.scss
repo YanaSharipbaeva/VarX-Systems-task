@@ -1,0 +1,131 @@
+$white : #fff;
+$black: #000;
+$light-yellow: #fbe7ba;
+
+body {
+    font-family: Century Gothic;
+}
+
+.service-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color:$black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.service-title:before {
+    background: url(../images/price_divider_up.png) no-repeat center;
+    content:"";
+    display: block;
+    width:101px;
+    height:28px;
+    margin: 10px auto;
+
+}
+
+.service-title:after {
+    background: url(../images/price_divider_down.png) no-repeat center;
+    content:"";
+    display: block;
+    width:401px;
+    height:41px;
+    margin: 5px auto;
+}
+
+.services-text {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 25px;
+    width: calc(100% - 387px);
+    text-align: left;
+    display: inline-block;
+    line-height: 1.2;
+    vertical-align: top;
+}
+
+.services-image1 {
+    background: url(../images/price-pic1.jpg) no-repeat center;
+    width: 327px;
+    height: 200px;
+    display: inline-block;
+}
+
+.services-image2 {
+    background: url(../images/price-pic2.jpg) no-repeat center;
+    width: 327px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.services-text__bold {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.services__second .services__second{
+    margin-top: 10px;
+}
+
+.content-button__link__order {
+    width:110px;
+    height:40px;
+}
+
+.content-button__link__know {
+    width:150px;
+    height:40px;
+    margin-right: 15px!important;
+}
+
+.services__second .content-button__link, .price .content-button__link, .order-popup-wrapper .content-button__link{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 18px;
+    display: inline-block;
+    line-height: 37px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.services__second{
+    margin-top: -2px;
+}
+
+.services__second .services-text {
+    padding-top: 15px;
+}
+
+.content-button__container {
+    margin-top: 45px;
+}
+
+.service .services-arrow {
+    background: url(../images/arrow_down.png) no-repeat center;
+    width: 40px;
+    height: 22px;
+    margin: 0px auto;
+    cursor: pointer;
+    display: block;
+}
+
+.content-wrapper .odd{
+    background: #f3f3f3;
+}
+
+.service .services-arrow__up {
+    background: url(../images/arrow_up.png) no-repeat center;
+}
+
+.service-wrapper {
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.service-content {
+    padding-bottom: 60px;
+}
